@@ -37,7 +37,8 @@ $i: 0;
 ```
 .card {
     opacity: 0.7;
-    transform: scale(0.8);}
+    transform: scale(0.8);
+}
 ```
-- .details{} to control opacicy of the detail info for active card and unactive card
+- .details{} to control opacity of the detail info for active card and unactive card
 - .col{} to give gredient effect to slides.
