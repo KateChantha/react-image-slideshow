@@ -9,8 +9,9 @@ body {
   text-align: center;
   position: relative; }
 
-.App-logo {
-  height: 80px; }
+.page {
+  margin-top: 30px;
+}
 
 /* DEMO STYLES */
 .nav {

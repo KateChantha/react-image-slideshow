@@ -29,8 +29,11 @@ class App extends Component {
     })
   }
 
+
   render() {
     const {properties, property} = this.state;
+    console.log(property.index*(100/properties.length))
+    
     return (
       <div className="App">
 
@@ -44,11 +47,6 @@ class App extends Component {
         >Prev</button>
 
         <div className="page">
-            <section>
-                <img src={logo} className="App-logo" alt="logo" />
-                <h1>Image slideshow React tutorial.</h1>
-            </section>
-
             <div className="col">
               <div className={`cards-slider active-slide-${property.index}`}>
                 <div className="cards-slider-wrapper" style={{
